@@ -1,6 +1,6 @@
 import React from "react";
 
-const GiphDisplay = ({dog}) => {
+const DogDisplay = ({dog}) => {
     const loaded = () => {
     return (
         <img src={dog.message} alt="dog"/>
@@ -14,4 +14,4 @@ const loading= () => {
 return dog ? loaded() : loading ();
 };
 
-export default GiphDisplay;
+export default DogDisplay;

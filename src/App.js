@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import GiphDisplay from "./Components/GiphDisplay";
+import DogDisplay from "./Components/DogDisplay";
 import Button from "./Components/Button";
 
 
@@ -20,7 +20,7 @@ function App() {
       <h1>Random Doggo</h1>
       <Button go={getDog}/>
       <h2>Make Your Day</h2>
-      <GiphDisplay dog={dog}/>
+      <DogDisplay dog={dog}/>
     </div>
   )
 }
